@@ -25,7 +25,7 @@ export default defineConfig(async ({ mode }) => {
           short_name: 'Frappe CRM',
           start_url: '/crm',
           description:
-            'Modern & 100% Open-source CRM tool to supercharge your sales operations',
+            'CRM moderno y de código abierto para impulsar tus operaciones de ventas',
           icons: [
             {
               src: '/assets/crm/manifest/manifest-icon-192.maskable.png',
