@@ -163,7 +163,8 @@ const targetOptions = [
   { label: 'Lead', value: 'CRM Lead' },
   { label: 'Deal', value: 'CRM Deal' },
 ]
-const docLabel = (dt) => targetOptions.find((o) => o.value === dt)?.label || dt
+const docLabel = (dt) =>
+  __(targetOptions.find((o) => o.value === dt)?.label || dt)
 
 const forms = createResource({
   url: 'crm.api.form.list_forms',

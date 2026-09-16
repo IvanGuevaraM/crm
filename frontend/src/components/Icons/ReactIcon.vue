@@ -6,7 +6,7 @@
     class=""
     fill="none"
   >
-    <title>react</title>
+    <title>{{ __('React') }}</title>
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

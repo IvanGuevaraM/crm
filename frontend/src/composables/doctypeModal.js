@@ -16,7 +16,7 @@ function showModal({
 }) {
   name.value = _name
   doctype.value = _doctype
-  title.value = _title
+  title.value = __(_title)
   defaults.value = _defaults
   callbacks.value = _callbacks
   show.value = true
