@@ -643,7 +643,7 @@
                 <Button
                   variant="solid"
                   size="md"
-                  :label="form.submit_button_label || __('Submit')"
+                  :label="__(form.submit_button_label || 'Submit')"
                   @click="previewSubmitted = true"
                 />
               </div>
@@ -701,7 +701,8 @@ const targetOptions = [
   { label: 'Lead', value: 'CRM Lead' },
   { label: 'Deal', value: 'CRM Deal' },
 ]
-const docLabel = (dt) => targetOptions.find((o) => o.value === dt)?.label || dt
+const docLabel = (dt) =>
+  __(targetOptions.find((o) => o.value === dt)?.label || dt)
 
 const loaded = ref(false)
 const saving = ref(false)
